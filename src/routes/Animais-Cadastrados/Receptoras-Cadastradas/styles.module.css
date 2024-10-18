@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topDiv {
+    margin-left: 1rem;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    color: #092955;
+    font-weight: 500;
+}
+
+.input {
+    margin-left: 2vh;
+    height: 2.8vh;
+    width: 25%;
+    border: 0;
+    border-radius: .3rem;
+    font-weight: bold;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: 0 none;
+    outline: 0;
+}
+
+.label {
+    margin-left: 10vh;
+}

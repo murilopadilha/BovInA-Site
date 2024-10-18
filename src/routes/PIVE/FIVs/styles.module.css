@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topDiv {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    color: #092955;
+    font-weight: 500;
+    flex-direction: row;
+}
+
+.sideItem {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    height: 2.3rem;
+    background-color: transparent;
+    color: #092955;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.input {
+    margin-left: 1vh;
+    height: 2.8vh;
+    width: 50%;
+    border: 0;
+    border-radius: .3rem;
+    font-weight: bold;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: 0 none;
+    outline: 0;
+}
+
+.container {
+    margin: 1rem;
+    background-color: #f9f9f9; 
+    width: auto; 
+    height: 21vh; 
+    padding: 1.5rem; 
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column; 
+    transition: transform 0.3s; 
+}
+
+.container:hover {
+    transform: translateY(-3px);
+    cursor: pointer; 
+}
+
+.container p {
+    margin: 0.5rem 0;
+    color: #333; 
+}
+
+.label {
+    width: 41vh;
+}
+
+.button {
+    background-color: #092955;
+    color: #F1F2F3;
+    width: 8vh;
+    height: 2.9vh;
+    border: 0;
+    border-radius: .5vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    padding-bottom: .3vh;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+    position: fixed;
+    bottom: 5vh; 
+    right: 5vh; 
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 100, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+.button:focus {
+    background-color: #0b3166;
+}
+
+.icon {
+    padding-right: 1vh;
+}

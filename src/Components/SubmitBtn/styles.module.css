@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    background-color: #092955;
+    color: #F1F2F3;
+    width: 8vh;
+    height: 2.9vh;
+    border: 0;
+    border-radius: .5vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    padding-bottom: .3vh;
+    transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 100, 255, 0.5);
+}
+
+.button:focus {
+    background-color: #0b3166;
+}
+
+.icon {
+    padding-right: 1vh;
+}

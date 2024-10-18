@@ -1,0 +1,163 @@
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.pageWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    margin-left: 40vh;
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px; 
+    margin-top: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.dataBox {
+    background-color: #ffffff;
+    padding: 10px; 
+    margin: 8px 0; 
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collection {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-top: 15px; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.details {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.loading, .error {
+    font-size: 18px;
+    color: #092955;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contentInfo {
+    padding: 20px;
+}
+
+.floatingButtonContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.floatingButton {
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #092955; 
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    padding-bottom: .5vh;
+}
+
+.floatingButton:hover {
+    transform: scale(1.1); 
+}
+
+.extraButtons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.extraButton {
+    width: 100px; 
+    height: 40px; 
+    border: none;
+    background-color: #092955; 
+    color: white;
+    margin-bottom: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: .5vh;
+}
+
+.extraButton:hover {
+    background-color: #0b3166; 
+}
+
+/* Animação de giro para o botão */
+.rotate {
+    animation: rotate 0.6s ease-in-out forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dataTable th, .dataTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.dataTable th {
+    background-color: #092955;
+    color: white;
+}
